@@ -1,28 +1,33 @@
-<!-- comment -->
 <!DOCTYPE html>
-<html>
+ <html>
+   <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js">
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Get It Done</title>
-</head>
+    </script>
 
-<body>
-  <h1>To-Do App</h1>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>To-Do App</title>
+   </head>
+   <body>
+     <h1>To-Do App</h1>
 
-  <form id="addToDoForm">
-    <label for="newToDoText">New To-Do:</label>
-    <input type="text" id="newToDoText">
-    <button type="submit">Add To-Do!</button>
-  </form>
+     <form id="addToDoForm">
+  <label for="newToDoText">New To-Do:</label>
+  <input type="text" id="newToDoText">
+  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+  Add To List
+</button>
+</form>
 
-  <ul id="toDoList">
+<ul id="toDoList">
   </ul>
 
-  <button id="deleteItems"> All Done
+  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+  You Friggin' Did It
   </button>
 
   <script src="app.js"></script>
-</body>
-
-</html>
+   </body>
+ </html>
