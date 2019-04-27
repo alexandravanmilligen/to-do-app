@@ -2,7 +2,7 @@ function onReady() {
      const addToDoForm = document.getElementById('addToDoForm');
      const newToDoText = document.getElementById('newToDoText');
      const toDoList = document.getElementById('toDoList');
-
+     const deleteButton = document.getElementById("deleteButton");
      addToDoForm.addEventListener('submit', () => {
 event.preventDefault();
 
@@ -38,7 +38,7 @@ event.preventDefault();
 
 
 
-deleteItems.addEventListener("click", event => {
+deleteButton.addEventListener("click", event => {
   // START EVENT HANDLER
 
            /*
